@@ -1,0 +1,22 @@
+section {
+    background-color: cadetblue;
+}
+h1 {
+    color: aliceblue;
+    font-family: 'Anton', sans-serif;
+}
+#product-overview {
+    background-color: pink;
+}
+.section-title {
+    color: bisque;
+}
+
+/*adjacent sibling "h2 + p" means all p followed by h2*/
+
+/*general sibling "h2 ~ p" means all p not followed by h2*/
+
+/*child combinator "div > p" means first and last p under div*/
+
+/*descendant combinator "div p" means all p under div*/
+
