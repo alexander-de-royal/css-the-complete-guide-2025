@@ -80,6 +80,11 @@ body {
 .button:focus {
     outline: none;
 }
+.plan_list {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
 #key-features {
     background: #ff1b68;
     margin-top: 80px;
@@ -88,6 +93,31 @@ body {
 #key-features .section-title {
     color: white;
     margin: 32px;
+}
+.key-feature_list  {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.key-feature {
+    display: inline-block;
+    width: 33%;
+    vertical-align: top;
+}
+.key-feature_description {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+.key-feature_image {
+    background: #ffcede;
+    width: 128px;
+    border: 2px solid #424242;
+    border-radius: 50%;
+    height: 129px;
+    margin: auto;
 }
 .plan_annotation {
     background: white;
@@ -157,11 +187,32 @@ body {
     color: white;
 }
 p::first-letter {
-    color: red;
+    /*color: red;*/
     font-size: 20px;
 }
-
-
+.main-footer {
+    background: black;
+    padding: 32px;
+    margin-top: 48px;
+}
+.main-footer_links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.main-footer_link {
+    display: inline-block;
+    margin: 0 16px;
+}
+.main-footer_link a {
+    color: white;
+    text-decoration: none;
+}
+.main-footer__link a:hover,
+.main-footer_link a:active {
+    color: #ccc;
+}
 
 /*adjacent sibling "h2 + p" means all p followed by h2*/
 
