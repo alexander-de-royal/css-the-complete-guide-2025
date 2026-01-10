@@ -18,8 +18,12 @@ main {
 .package_badge {
     position: absolute;
     top: 50px;
-    left: 400px;
-
+    right: 0;
+    margin: 20px;
+    font-size: 12px;
+    color: white;
+    background-color: #ff5454;
+    padding: 10px;
 }
 .package:hover,
 .package:active {
